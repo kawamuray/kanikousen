@@ -1,6 +1,5 @@
 #!/bin/bash
 # !!CAUTION!! This scripts isn't safe to use for untrusted input
-set -x
 set -e
 
 Q4M_HOST=""               # Default value 'H'
