@@ -101,7 +101,7 @@ EOF
 
 ACTION="$1"
 checkifnull ACTION $ACTION; shift
-if ! type $ACTION | grep "function$" >/dev/null; then
+if ! LC_ALL=C LANG=C type $ACTION | grep "function$" >/dev/null; then
     echo "unkown action '$ACTION'" >&2
     usage >&2
     exit 1
