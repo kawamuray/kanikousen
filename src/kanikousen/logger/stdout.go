@@ -1,4 +1,4 @@
-package stdout
+package logger
 
 import (
 	"bufio"
